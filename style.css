@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #111;
+    font-family: Inter;
+}
+h1{
+    font-size: 2rem;
+    color: rgb(30, 30, 150);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 150px solid rgb(0, 99, 0);
+}
+.gameBoard{
+    position: relative;
+    height: 800px;
+    width: 100%;
+    border-bottom: 20px solid rgb(184, 121, 39);
+    background: linear-gradient(rgb(0, 0, 223), rgb(7, 9, 148));
+}
+.sonic{
+    position: absolute;
+    width: 80px;
+    bottom: 0;
+    left: 35px;
+}
+.jump{
+    animation: jump 500ms ease-out;
+}
+.motobug{
+    position: absolute;
+    width: 55px;
+    bottom: 0px;
+    /* left: 110px; */
+    animation: motobugAnim 2s infinite linear;
+}
+.ring{
+    display: none;
+    position: absolute;
+    width: 30px;
+    bottom: 20px;
+    animation: ring-animation 3s infinite linear;
+}
+@keyframes motobugAnim{
+    from{
+        right: 0px;
+    }
+    to{
+        right: 93%;
+    }
+}
+@keyframes jump{
+    0%{
+        bottom: 20px;
+    }
+    30%{
+        bottom: 120px;
+    }
+    60%{
+        bottom: 125px;
+    }
+    70%{
+        bottom: 130px;
+    }
+    80%{
+        bottom: 130px;
+    }
+    90%{
+        bottom: 100px;
+    }
+    95%{
+        bottom: 50px;
+    }
+} 
