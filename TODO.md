@@ -12,9 +12,9 @@
 
 ## Fase 2: Mecânicas de jogo (a fazer)
 
-[ ] Implementar um sistema de pontuação.
-[ ] Fazer a pontuação aumentar com o tempo que o jogador sobrevive.
-[ ] Adicionar os anéis (.ring) para o jogador coletar e ganhar mais pontos (novo contador).
-[ ] Criar uma tela ou mensagem de "Game Over" quando houver colisão.
-[ ] Adicionar um botão ou funcionalidade para reiniciar o jogo após a colisão.
-[ ] Aumentar a velocidade de forma progressiva.
+- [ ] Implementar um sistema de pontuação.
+- [ ] Fazer a pontuação aumentar com o tempo que o jogador sobrevive.
+- [ ] Adicionar os anéis (.ring) para o jogador coletar e ganhar mais pontos (novo contador).
+- [ ] Criar uma tela ou mensagem de "Game Over" quando houver colisão.
+- [ ] Adicionar um botão ou funcionalidade para reiniciar o jogo após a colisão.
+- [ ] Aumentar a velocidade de forma progressiva.
